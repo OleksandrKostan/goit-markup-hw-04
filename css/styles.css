@@ -283,7 +283,7 @@ img {
 }
 .name {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .commands {
   background-color: #f5f4fa;
@@ -304,6 +304,32 @@ img {
   margin-right: 30px;
   text-align: center;
 }
+.social-list {
+  display: inline-flex;
+  margin-bottom: 30px;
+}
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  fill: #afb1b8;
+}
+.social-item {
+  margin-right: 10px;
+}
+.social-item:last-child {
+  margin-right: 0;
+}
+
+.command .social-link:hover,
+.command .social-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--primary-white-color);
+}
+
 /* футер */
 .footer {
   background-color: #2f303a;
