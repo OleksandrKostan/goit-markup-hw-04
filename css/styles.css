@@ -46,6 +46,12 @@ img {
   display: flex;
   align-items: center;
 }
+
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /* logo */
 .logo {
   font-family: Raleway, cursive;
@@ -98,12 +104,14 @@ img {
 }
 
 .contakt a {
+  display: flex;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
   text-decoration: none;
+  align-items: center;
 }
 .contakt a:hover,
 .contakt a:focus {
