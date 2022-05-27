@@ -192,12 +192,10 @@ img {
 .button.secondary:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.secondary:hover {
-  background-color: var(--primary-white-color);
-  color: var(--accent-color);
-}
 /* section */
 .section-title {
   color: var(--primary-text-color);
@@ -460,7 +458,6 @@ img {
 .flex-conteiner {
   display: flex;
   flex-wrap: wrap;
-  width: 1200;
   margin: -15px -15px;
 }
 .flex-element {
@@ -473,4 +470,15 @@ img {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+}
+
+.flex-conteiner .link {
+  display: block;
+  color: #757575;
+  text-decoration: none;
+}
+
+.flex-conteiner .flex-element:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
