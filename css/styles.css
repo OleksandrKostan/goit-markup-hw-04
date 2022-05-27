@@ -329,6 +329,38 @@ img {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
 }
+/* Clients */
+.clients {
+  padding: 94px 0px;
+  background-color: var(--primary-white-color);
+}
+.clients-list {
+  display: flex;
+}
+
+.clients-item {
+  margin-right: 30px;
+}
+
+.clients-item:last-child {
+  margin-right: 0;
+}
+
+.clients-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+.clients-link:hover,
+.clients-link:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
 
 /* футер */
 .footer {
